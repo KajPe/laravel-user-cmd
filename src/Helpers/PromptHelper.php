@@ -5,7 +5,6 @@ namespace KajPe\UserCmd\Helpers;
 
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Permission;
-use function Laravel\Prompts\confirm;
 use function Laravel\Prompts\multiselect;
 use function Laravel\Prompts\password;
 use function Laravel\Prompts\select;
