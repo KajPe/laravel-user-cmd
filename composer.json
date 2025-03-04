@@ -1,0 +1,29 @@
+{
+    "name": "kajpe/user-cmd",
+    "description": "Artisan commands for administrating users",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Kaj P"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "KajPe\\UserCmd\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KajPe\\UserCmd\\UserCmdServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
