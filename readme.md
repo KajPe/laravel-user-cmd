@@ -51,7 +51,7 @@ mkdir -p packages
 
 Clone the repo to the packages folder.
 ```
-git clone https://github.com/KajPe/laravel-user-cmd packages/
+git clone https://github.com/KajPe/laravel-user-cmd packages/laravel-user-cmd
 ```
 
 Configure composer to use the local packages folder.
